@@ -10,7 +10,7 @@ const corsOrigin = process.env.CORS_ORIGIN || "http://localhost:3000";
 // Middleware
 app.use(
   cors({
-    origin: [corsOrigin],
+    origin: [corsOrigin,process.env.CORS_ADMIN],
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
