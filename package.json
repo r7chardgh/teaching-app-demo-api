@@ -1,0 +1,21 @@
+{
+  "name": "teaching-app-api",
+  "version": "1.0.0",
+  "description": "api for teaching-app-demo",
+  "main": "api/server.js",
+  "scripts": {
+    "start": "node api/server.js",
+    "dev": "nodemon api/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "author": "richard tsang",
+  "license": "ISC"
+}
