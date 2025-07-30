@@ -8,7 +8,7 @@ const uri = process.env.MONGODB_URI;
 const corsOrigin = process.env.CORS_ORIGIN || "http://localhost:3000";
 
 // Middleware
-app.use(cors({ origin: corsOrigin }));
+app.use(cors());
 app.use(express.json());
 
 // MongoDB connection
